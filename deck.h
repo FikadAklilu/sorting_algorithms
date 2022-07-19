@@ -45,7 +45,7 @@ typedef struct deck_node_s
 	struct deck_node_s *prev;
 	struct deck_node_s *next;
 } deck_node_t;
-[I
+
 void sort_deck(deck_node_t **deck);
 int card_value(deck_node_t *node);
 int _strcmp(const char *s1, const char *s2);
